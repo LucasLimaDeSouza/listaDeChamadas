@@ -1,0 +1,87 @@
+.container {
+    height: 100%;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148808256.jpg?w=2000");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100%;
+    
+}
+
+header {
+    height: 6rem;
+    background-color: red;
+}
+
+.headerLogin {
+    height: 100%;
+    background: rgb(203, 235, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    width: 100%;
+    padding: 10px 20px;
+    
+}
+
+.headerLogin strong {
+    font-size: 16px;
+    
+}
+
+.boxPerfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxPerfil img {
+    width: 60px;
+    border-radius: 60px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding-bottom: 20rem;
+    gap: 10px;
+    height: 100%;
+}
+
+section input {
+    width: 35%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+
+    background: rgb(255, 245, 223);
+}
+
+section button {
+    width: 35%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+section button:hover {
+    filter: brightness(0.9);
+}
+
+
+
+
